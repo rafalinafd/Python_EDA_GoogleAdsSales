@@ -1,5 +1,6 @@
-**# Python_EDA_CampaignPerformanceAnalysis**
-Exploratory Data Analysis Project of Google Ads Campaign Sales
+# Python_EDA_CampaignPerformanceAnalysis
+
+**Exploratory Data Analysis Project of Google Ads Campaign Sales**
 
 This project analyzes a year-long advertising performance dataset from Google Ads, specifically focusing on promotional campaigns for a Data Analysis course. The dataset includes various ad metrics such as impressions, clicks, cost, conversion rate, and sales amount. With various intentional quality issues such as format and spelling inconsistencies, missing values, and duplicates, the dataset reflects real-world challenges that marketers commonly face when preparing for data analysis.
 
