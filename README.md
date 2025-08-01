@@ -7,18 +7,11 @@ Collected from Kaggle - Google Ads Sales Dataset, the dataset consists of 2,600 
 
 **Data Cleaning**
 Before analysis, several data quality issues were identified and resolved.
-1. Currency Symbol Removal:
-Symbols in Cost and Sales_Amount were removed to allow numerical processing.
-2. Date Format Standardization:
-Dates in Ad_Date had inconsistent formats (slashes, dashes, different day/month orders). All were standardized to MM/DD/YYYY.
-3. Typo Handling in String Columns:
-Standardized _Campaign_Name_ and _Location_ to fix inconsistent spellings.
-Capitalized _Device_ values to address casing variations.
-Corrected typos in _Keyword_ entries for better consistency.
-4. Missing Values Handling:
-7 numerical columns had missing values.
-5. Duplicate Removal:
-One duplicate _Ad_ID_ was found and removed to ensure accurate analysis.
+1. Symbols removement in _Cost_ and _Sales_Amount_ to allow numerical processing.
+2. Date format standardization into MM/DD/YYYY in _Ad_Date_.
+3. Typo handling and capilization in string columns such as _Campaign_Name_, _Location_, _Device_, and _Keyword_.
+4. Missing values handling on 7 columns.
+5. Duplicate removal to ensure accurate analysis.
 
 **Analysis Goals**
 1. Identify days of the week with the highest return on ad spend.
@@ -26,12 +19,9 @@ One duplicate _Ad_ID_ was found and removed to ensure accurate analysis.
 3. Evaluate performance of keywords based on impressions and cost.
 
 **Insights**
-1. Ad Scheduling:
-Ad costs stay relatively stable during the week, but sales peak on Thursdays and Fridays, suggesting stronger consumer engagement.
-3. Device Targeting:
-Ads on mobile devices incur slightly higher costs, but clicks are evenly distributed across all device types.
-4. Keyword Performance:
-Certain keywords, such as “Analytics for data”, “Data analytics course”, and “Data analytics training” show high impressions at low cost per impression, making them efficient for higher reach.
+1. Ad costs stay relatively stable during the week, but sales peak on Thursdays and Fridays, suggesting stronger consumer engagement.
+3. Ads on mobile devices incur slightly higher costs, but clicks are evenly distributed across all device types.
+4. Certain keywords, such as “Analytics for data”, “Data analytics course”, and “Data analytics training” show high impressions at low cost per impression, making them efficient for higher reach.
 
 **Recommendations**
 1. Prioritize ad placement on Thursdays and Fridays to leverage cost return.
