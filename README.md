@@ -6,6 +6,7 @@ This project analyzes a year-long advertising performance dataset from Google Ad
 Collected from Kaggle - Google Ads Sales Dataset, the dataset consists of 2,600 entries and 13 features (5 numerical, 8 categorical). Analyzing this type of campaign allows marketers to uncover patterns in consumer behavior and optimize ad performance based on factual data.
 
 **Data Cleaning**
+
 Before analysis, several data quality issues were identified and resolved.
 1. Symbols removement in _Cost_ and _Sales_Amount_ to allow numerical processing.
 2. Date format standardization into MM/DD/YYYY in _Ad_Date_.
