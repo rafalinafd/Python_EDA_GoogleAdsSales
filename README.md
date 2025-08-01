@@ -31,6 +31,9 @@ Before analysis, several data quality issues were identified and resolved:
 3. Consider combining discount strategies with cost-efficient keywords to boost reach and optimize spending.
 
 If you have feedback, questions, or suggestions, feel free to reach me out!
+
 Email: rafalinafania@gmail.com
+
 LinkedIn: linkedin.com/in/fania-rafalina-fadli
+
 GitHub: rafalinafd
