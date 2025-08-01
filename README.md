@@ -7,10 +7,10 @@ Collected from Kaggle - Google Ads Sales Dataset, the dataset consists of 2,600 
 
 **Data Cleaning**
 
-Before analysis, several data quality issues were identified and resolved.
+Before analysis, several data quality issues were identified and resolved:
 1. Symbols removement in _Cost_ and _Sales_Amount_ to allow numerical processing.
 2. Date format standardization into MM/DD/YYYY in _Ad_Date_.
-3. Typo handling and capilization in string columns such as _Campaign_Name_, _Location_, _Device_, and _Keyword_.
+3. Typo handling and capitalization in string columns such as _Campaign_Name_, _Location_, _Device_, and _Keyword_.
 4. Missing values handling on 7 columns.
 5. Duplicate removal to ensure accurate analysis.
 
